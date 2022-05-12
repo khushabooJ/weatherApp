@@ -1,0 +1,34 @@
+<%- include("../partials/headerli"); %>
+<%- include("../partials/navbar"); %>
+<div class="container-fluid main_header">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+           
+            
+              <div class="main-content">
+                  <form action="" class="temp_form" id="tempform">
+                      <input type="text" name="forminput" id="cityname" placeholder="Enter the City Name" autocomplete="off">
+                      <input type="submit" value="search" id="submitBtn">
+                  </form>
+              </div>
+                  <div class="tempinfo">
+                      <div class="top-layer">
+                          <p id="day">Tuesday</p>
+                          <p id="todaydate"> 23 March</p>
+                      </div>
+                      <div class="main-layer">
+                          <p id="city-name">Get the Info in </span><span style="color: aqua;"><sup>0</sup>C</span> </p>
+                          <div class="middle-layer">
+                              <p id="temp"><span id="tempvalue"> 0 </span> <sup> 0</sup> C </p>
+                             
+                              <p id="temp-status"> <i class="fa fa-cloud"></i> </p>
+                          </div>
+                      </div>
+                  </div>
+         
+        </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+
+<%- include("../partials/footer"); %>
